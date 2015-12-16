@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="493.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <children>
+      <Label layoutX="51.0" layoutY="64.0" text="Total Budget:" />
+      <Label fx:id="expense_Budget" layoutX="158.0" layoutY="64.0" prefHeight="21.0" prefWidth="89.0" />
+      <Label layoutX="330.0" layoutY="64.0" text="Total Expense:" />
+      <Label fx:id="expense_Available" layoutX="440.0" layoutY="64.0" prefHeight="21.0" prefWidth="79.0" />
+      <TableView fx:id="table" layoutX="3.0" layoutY="158.0" prefHeight="340.0" prefWidth="575.0">
+        <columns>
+          <TableColumn fx:id="firstcolumn" prefWidth="204.0" text="Category" />
+          <TableColumn fx:id="secondcolumn" prefWidth="182.0" text="Amount(in Rs.)" />
+            <TableColumn fx:id="thirdcolumn" prefWidth="188.0" text="Date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

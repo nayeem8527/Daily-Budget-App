@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="464.0" prefWidth="571.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <children>
+      <Label fx:id="lb1" alignment="CENTER" layoutX="43.0" layoutY="153.0" prefHeight="21.0" prefWidth="173.0" text="Total Budget(in Rupees)" />
+      <TextField fx:id="amt" layoutX="232.0" layoutY="148.0" promptText="Amount" />
+      <Button layoutX="444.0" layoutY="148.0" mnemonicParsing="false" onAction="#enter" text="Enter" />
+      <Label layoutX="229.0" layoutY="222.0" prefHeight="21.0" prefWidth="115.0" />
+   </children>
+</AnchorPane>

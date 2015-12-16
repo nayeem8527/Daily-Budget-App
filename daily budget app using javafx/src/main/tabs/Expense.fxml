@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="497.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <children>
+      <Label layoutX="41.0" layoutY="81.0" text="Total Budget:" />
+      <Label fx:id="Expense_Budget" layoutX="145.0" layoutY="81.0" prefHeight="21.0" prefWidth="65.0" />
+      <Label layoutX="244.0" layoutY="81.0" text="Available Budget:" />
+      <Label fx:id="Expense_Available" layoutX="368.0" layoutY="81.0" prefHeight="21.0" prefWidth="65.0" />
+      <Label layoutX="68.0" layoutY="158.0" text="Date" />
+      <Label layoutX="68.0" layoutY="212.0" text="Category" />
+      <Label layoutX="68.0" layoutY="266.0" text="Amount(in Rupees)" />
+      <DatePicker fx:id="date" layoutX="210.0" layoutY="153.0" />
+      <TextField fx:id="cat" layoutX="208.0" layoutY="207.0" prefHeight="31.0" prefWidth="200.0" />
+      <TextField fx:id="money" layoutX="208.0" layoutY="261.0" prefHeight="31.0" prefWidth="200.0" />
+      <Button fx:id="submit" layoutX="196.0" layoutY="318.0" mnemonicParsing="false" onAction="#changes" text="Submit" />
+      <Label fx:id="lb2" layoutX="174.0" layoutY="387.0" prefHeight="21.0" prefWidth="115.0" />
+   </children>
+</AnchorPane>
